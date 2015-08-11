@@ -1,0 +1,12 @@
+# Site settings
+title: Zabawaba IO
+email: zabawaba99@gmail.com
+description: >
+  Some description about this site and how it deals with me.
+baseurl: ""
+url: "http://stevenberlanga.com"
+twitter_username: zabawaba
+github_username:  zabawaba99
+
+# Build settings
+markdown: kramdown
