@@ -16,7 +16,7 @@ A little while back [Leo Correa](http://leonardocorrea.com/) introduced
 me to a neat tool called [glitch](https://github.com/levicook/glitch). It
 allows you to automatically build, vet and test your go code as develop. I
 started using it on my personal projects at first and quickly made it part of
-my workflow for any go proejct that I touch.
+my work-flow for any go project that I touch.
 
 Unfortunately I found myself still having to run some commands afterwards
 like `gofmt -l -s` and `golint .`. Leo and I began chatting about this and
@@ -41,7 +41,7 @@ files that you do not want snag to worry about. Any file/folder found in
 this section will not cause the *script* section to run if modified.
 
 The **verbose** section lets you see all the output of the commands that
-are executing. By default, snag will only output a command’s output if it fails.
+are executing. By default, snag will only output a command's output if it fails.
 
 **Putting it all together**
 
