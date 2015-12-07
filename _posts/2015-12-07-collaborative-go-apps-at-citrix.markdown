@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Collaborative Apps with Go at Citrix"
-categories: go firebase
+post_description: Using Firebase at Citrix
+categories: development go firebase
 ---
 
 **Originally posted on [Firebase](https://www.firebase.com/blog/2015-03-17-collaborative-go-apps-at-citrix.html)**
@@ -77,7 +78,7 @@ if err != nil {
 println(“token:”, token)
 {% endhighlight %}
 
-Fireload
+## Fireload
 
 [Fireload](https://github.com/CloudCom/fireload) ties together a pool of Firebase namespaces and acts as a load
 balancer among them. Since we're building in the Cloud, we aim to be horizontally
